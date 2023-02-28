@@ -9,7 +9,7 @@ from datetime import timedelta
 import pandas as pd
 from flask import render_template, request, url_for, flash, redirect, session, send_from_directory, jsonify
 from flask_migrate import Migrate
-from flaskwebgui import FlaskUI
+
 from sqlalchemy import desc
 from werkzeug.security import check_password_hash, generate_password_hash
 
@@ -1406,11 +1406,6 @@ def file_upload():
     return render_template(Templates.file_upload)
 
 
-# ui = FlaskUI(app)
-#
-# if __name__ == "__main__":
-#     # app.run(host='0.0.0.0')
-#     ui.run()
 
 
 # def start_flask(**server_kwargs):
@@ -1429,10 +1424,3 @@ def file_upload():
 if __name__ == "__main__":
     app.run(debug=True)
 
-    # Default start flask
-    # FlaskUI(
-    #     app=app,
-    #     server="flask",
-    #     width=800,
-    #     height=600,
-    # ).run()
