@@ -3,7 +3,7 @@ import enum
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
-from config import DevelopmentConfig, ProductionConfig
+from config import ProductionConfig
 
 db = SQLAlchemy()
 
