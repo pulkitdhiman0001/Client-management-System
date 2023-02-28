@@ -11,7 +11,10 @@ class Config(object):
 
 
 class ProductionConfig(Config):
-    pass
+    DEBUG = False
+    SECRET_KEY = config['SECRET_KEY']
+    SQLALCHEMY_DATABASE_URI = f"postgresql://client_management_aa54_user:67sMfUo1xP3OPATIvOthUcDkMgfb9oJX@dpg-cfutbapmbjsj9amog15g-a.oregon-postgres.render.com/client_management_aa54"
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 
 class DevelopmentConfig(Config):
