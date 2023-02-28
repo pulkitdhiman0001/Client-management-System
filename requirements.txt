@@ -19,7 +19,8 @@ mysql-connector==2.2.9
 mysql-connector-python==8.0.32
 mysql-connector-python-rf==2.2.2
 mysqlclient==2.1.1
-
+numpy
+pandas
 pefile==2023.2.7
 protobuf==3.20.3
 psutil==5.9.4
@@ -27,7 +28,7 @@ psycopg2==2.9.5
 pyinstaller==5.8.0
 pyinstaller-hooks-contrib==2023.0
 python-dateutil==2.8.2
-python-dotenv==1.0.0
+python-dotenv
 pytz==2022.7.1
 pywin32-ctypes==0.2.0
 six==1.16.0
