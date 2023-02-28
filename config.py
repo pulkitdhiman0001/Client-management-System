@@ -19,7 +19,7 @@ class ProductionConfig(Config):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    SECRET_KEY = config['SECRET_KEY']
+    SECRET_KEY = 'hvcEfKQRo6jQDF*4#bXhkjbZMkCIlGM48z9mCuS8tdeZ13e9$L'
 
     # database configuration
     # SQLALCHEMY_DATABASE_URI = app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///client.sqlite3'
