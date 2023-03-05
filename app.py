@@ -23,6 +23,9 @@ import random
 
 from flask_mail import Mail, Message
 
+if getattr(sys, 'frozen', False):
+    import pyi_splash
+
 app = create_app()
 migrate = Migrate(app, db, render_as_batch=True)
 
@@ -1553,6 +1556,8 @@ def reset_pass():
             flash('Password Changed Successfully', category='success')
             return redirect(url_for('login'))
 
+if getattr(sys, 'frozen', False):
+    pyi_splash.close()
 
 if __name__ == "__main__":
     FlaskUI(app=app, server='flask',

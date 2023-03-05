@@ -3276,6 +3276,10 @@
   ('pydoc_data.topics',
    'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc_data\\topics.py',
    'PYMODULE'),
+  ('pyi_splash',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\PyInstaller\\fake-modules\\pyi_splash.py',
+   'PYMODULE'),
   ('pytz',
    'W:\\work\\flask new\\client '
    'management\\venv\\lib\\site-packages\\pytz\\__init__.py',
