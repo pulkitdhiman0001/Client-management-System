@@ -1,0 +1,4559 @@
+('W:\\work\\flask new\\client management exe application\\client management '
+ 'postgres\\build\\app\\PYZ-00.pyz',
+ [('MySQLdb',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\__init__.py',
+   'PYMODULE'),
+  ('MySQLdb._exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\_exceptions.py',
+   'PYMODULE'),
+  ('MySQLdb.connections',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\connections.py',
+   'PYMODULE'),
+  ('MySQLdb.constants',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\constants\\__init__.py',
+   'PYMODULE'),
+  ('MySQLdb.constants.CLIENT',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\constants\\CLIENT.py',
+   'PYMODULE'),
+  ('MySQLdb.constants.FIELD_TYPE',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\constants\\FIELD_TYPE.py',
+   'PYMODULE'),
+  ('MySQLdb.constants.FLAG',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\constants\\FLAG.py',
+   'PYMODULE'),
+  ('MySQLdb.converters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\converters.py',
+   'PYMODULE'),
+  ('MySQLdb.cursors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\cursors.py',
+   'PYMODULE'),
+  ('MySQLdb.release',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\release.py',
+   'PYMODULE'),
+  ('MySQLdb.times',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\MySQLdb\\times.py',
+   'PYMODULE'),
+  ('PyQt5',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_compression.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('alembic',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\__init__.py',
+   'PYMODULE'),
+  ('alembic.autogenerate',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\autogenerate\\__init__.py',
+   'PYMODULE'),
+  ('alembic.autogenerate.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\autogenerate\\api.py',
+   'PYMODULE'),
+  ('alembic.autogenerate.compare',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\autogenerate\\compare.py',
+   'PYMODULE'),
+  ('alembic.autogenerate.render',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\autogenerate\\render.py',
+   'PYMODULE'),
+  ('alembic.autogenerate.rewriter',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\autogenerate\\rewriter.py',
+   'PYMODULE'),
+  ('alembic.command',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\command.py',
+   'PYMODULE'),
+  ('alembic.config',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\config.py',
+   'PYMODULE'),
+  ('alembic.context',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\context.py',
+   'PYMODULE'),
+  ('alembic.ddl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\__init__.py',
+   'PYMODULE'),
+  ('alembic.ddl.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\base.py',
+   'PYMODULE'),
+  ('alembic.ddl.impl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\impl.py',
+   'PYMODULE'),
+  ('alembic.ddl.mssql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\mssql.py',
+   'PYMODULE'),
+  ('alembic.ddl.mysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\mysql.py',
+   'PYMODULE'),
+  ('alembic.ddl.oracle',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\oracle.py',
+   'PYMODULE'),
+  ('alembic.ddl.postgresql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\postgresql.py',
+   'PYMODULE'),
+  ('alembic.ddl.sqlite',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\ddl\\sqlite.py',
+   'PYMODULE'),
+  ('alembic.op',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\op.py',
+   'PYMODULE'),
+  ('alembic.operations',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\__init__.py',
+   'PYMODULE'),
+  ('alembic.operations.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\base.py',
+   'PYMODULE'),
+  ('alembic.operations.batch',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\batch.py',
+   'PYMODULE'),
+  ('alembic.operations.ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\ops.py',
+   'PYMODULE'),
+  ('alembic.operations.schemaobj',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\schemaobj.py',
+   'PYMODULE'),
+  ('alembic.operations.toimpl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\operations\\toimpl.py',
+   'PYMODULE'),
+  ('alembic.runtime',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\runtime\\__init__.py',
+   'PYMODULE'),
+  ('alembic.runtime.environment',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\runtime\\environment.py',
+   'PYMODULE'),
+  ('alembic.runtime.migration',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\runtime\\migration.py',
+   'PYMODULE'),
+  ('alembic.script',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\script\\__init__.py',
+   'PYMODULE'),
+  ('alembic.script.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\script\\base.py',
+   'PYMODULE'),
+  ('alembic.script.revision',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\script\\revision.py',
+   'PYMODULE'),
+  ('alembic.script.write_hooks',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\script\\write_hooks.py',
+   'PYMODULE'),
+  ('alembic.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\__init__.py',
+   'PYMODULE'),
+  ('alembic.util.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\compat.py',
+   'PYMODULE'),
+  ('alembic.util.editor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\editor.py',
+   'PYMODULE'),
+  ('alembic.util.exc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\exc.py',
+   'PYMODULE'),
+  ('alembic.util.langhelpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\langhelpers.py',
+   'PYMODULE'),
+  ('alembic.util.messaging',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\messaging.py',
+   'PYMODULE'),
+  ('alembic.util.pyfiles',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\pyfiles.py',
+   'PYMODULE'),
+  ('alembic.util.sqla_compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\alembic\\util\\sqla_compat.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bisect.py',
+   'PYMODULE'),
+  ('blinker',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\blinker\\__init__.py',
+   'PYMODULE'),
+  ('blinker._saferef',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\blinker\\_saferef.py',
+   'PYMODULE'),
+  ('blinker._utilities',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\blinker\\_utilities.py',
+   'PYMODULE'),
+  ('blinker.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\blinker\\base.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\calendar.py',
+   'PYMODULE'),
+  ('click',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click._compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click.globals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.termui',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\testing.py',
+   'PYMODULE'),
+  ('click.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('click.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\codeop.py',
+   'PYMODULE'),
+  ('colorama',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('config',
+   'W:\\work\\flask new\\client management exe application\\client management '
+   'postgres\\config.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('curses',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\datetime.py',
+   'PYMODULE'),
+  ('dateutil',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.tz',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\dis.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\doctest.py',
+   'PYMODULE'),
+  ('dotenv',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.mime',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\mime\\__init__.py',
+   'PYMODULE'),
+  ('email.mime.base',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\mime\\base.py',
+   'PYMODULE'),
+  ('email.mime.multipart',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\mime\\multipart.py',
+   'PYMODULE'),
+  ('email.mime.nonmultipart',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\mime\\nonmultipart.py',
+   'PYMODULE'),
+  ('email.mime.text',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\mime\\text.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('flask',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\__init__.py',
+   'PYMODULE'),
+  ('flask.app',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\app.py',
+   'PYMODULE'),
+  ('flask.blueprints',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\blueprints.py',
+   'PYMODULE'),
+  ('flask.cli',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\cli.py',
+   'PYMODULE'),
+  ('flask.config',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\config.py',
+   'PYMODULE'),
+  ('flask.ctx',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\ctx.py',
+   'PYMODULE'),
+  ('flask.debughelpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\debughelpers.py',
+   'PYMODULE'),
+  ('flask.globals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\globals.py',
+   'PYMODULE'),
+  ('flask.helpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\helpers.py',
+   'PYMODULE'),
+  ('flask.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\json\\__init__.py',
+   'PYMODULE'),
+  ('flask.json.provider',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\json\\provider.py',
+   'PYMODULE'),
+  ('flask.json.tag',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\json\\tag.py',
+   'PYMODULE'),
+  ('flask.logging',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\logging.py',
+   'PYMODULE'),
+  ('flask.scaffold',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\scaffold.py',
+   'PYMODULE'),
+  ('flask.sessions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\sessions.py',
+   'PYMODULE'),
+  ('flask.signals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\signals.py',
+   'PYMODULE'),
+  ('flask.templating',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\templating.py',
+   'PYMODULE'),
+  ('flask.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\testing.py',
+   'PYMODULE'),
+  ('flask.typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\typing.py',
+   'PYMODULE'),
+  ('flask.wrappers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask\\wrappers.py',
+   'PYMODULE'),
+  ('flask_mail',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_mail.py',
+   'PYMODULE'),
+  ('flask_migrate',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_migrate\\__init__.py',
+   'PYMODULE'),
+  ('flask_migrate.cli',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_migrate\\cli.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.cli',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\cli.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.extension',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\extension.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.model',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\model.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.pagination',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\pagination.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.query',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\query.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.record_queries',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\record_queries.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.session',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\session.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.table',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\table.py',
+   'PYMODULE'),
+  ('flask_sqlalchemy.track_modifications',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_sqlalchemy\\track_modifications.py',
+   'PYMODULE'),
+  ('flask_wtf',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\__init__.py',
+   'PYMODULE'),
+  ('flask_wtf.csrf',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\csrf.py',
+   'PYMODULE'),
+  ('flask_wtf.form',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\form.py',
+   'PYMODULE'),
+  ('flask_wtf.i18n',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\i18n.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\recaptcha\\__init__.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.fields',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\recaptcha\\fields.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.validators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\recaptcha\\validators.py',
+   'PYMODULE'),
+  ('flask_wtf.recaptcha.widgets',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flask_wtf\\recaptcha\\widgets.py',
+   'PYMODULE'),
+  ('flaskwebgui',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\flaskwebgui.py',
+   'PYMODULE'),
+  ('form',
+   'W:\\work\\flask new\\client management exe application\\client management '
+   'postgres\\form.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\glob.py',
+   'PYMODULE'),
+  ('greenlet',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\greenlet\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('imp',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\imp.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib._common',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\_common.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib_metadata',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata._adapters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib_metadata._collections',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib_metadata._compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('importlib_metadata._functools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib_metadata._itertools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib_metadata._meta',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib_metadata._py39compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_py39compat.py',
+   'PYMODULE'),
+  ('importlib_metadata._text',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('itsdangerous',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\__init__.py',
+   'PYMODULE'),
+  ('itsdangerous._json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\_json.py',
+   'PYMODULE'),
+  ('itsdangerous.encoding',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\encoding.py',
+   'PYMODULE'),
+  ('itsdangerous.exc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\exc.py',
+   'PYMODULE'),
+  ('itsdangerous.serializer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\serializer.py',
+   'PYMODULE'),
+  ('itsdangerous.signer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\signer.py',
+   'PYMODULE'),
+  ('itsdangerous.timed',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\timed.py',
+   'PYMODULE'),
+  ('itsdangerous.url_safe',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\itsdangerous\\url_safe.py',
+   'PYMODULE'),
+  ('jinja2',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\lzma.py',
+   'PYMODULE'),
+  ('mako',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\__init__.py',
+   'PYMODULE'),
+  ('mako._ast_util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\_ast_util.py',
+   'PYMODULE'),
+  ('mako.ast',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\ast.py',
+   'PYMODULE'),
+  ('mako.cache',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\cache.py',
+   'PYMODULE'),
+  ('mako.codegen',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\codegen.py',
+   'PYMODULE'),
+  ('mako.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\compat.py',
+   'PYMODULE'),
+  ('mako.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\exceptions.py',
+   'PYMODULE'),
+  ('mako.ext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\ext\\__init__.py',
+   'PYMODULE'),
+  ('mako.ext.pygmentplugin',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\ext\\pygmentplugin.py',
+   'PYMODULE'),
+  ('mako.filters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\filters.py',
+   'PYMODULE'),
+  ('mako.lexer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\lexer.py',
+   'PYMODULE'),
+  ('mako.parsetree',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\parsetree.py',
+   'PYMODULE'),
+  ('mako.pygen',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\pygen.py',
+   'PYMODULE'),
+  ('mako.pyparser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\pyparser.py',
+   'PYMODULE'),
+  ('mako.runtime',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\runtime.py',
+   'PYMODULE'),
+  ('mako.template',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\template.py',
+   'PYMODULE'),
+  ('mako.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mako\\util.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('models',
+   'W:\\work\\flask new\\client management exe application\\client management '
+   'postgres\\models.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('mysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.abstracts',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\abstracts.py',
+   'PYMODULE'),
+  ('mysql.connector.authentication',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\authentication.py',
+   'PYMODULE'),
+  ('mysql.connector.catch23',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\catch23.py',
+   'PYMODULE'),
+  ('mysql.connector.charsets',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\charsets.py',
+   'PYMODULE'),
+  ('mysql.connector.connection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.connection_cext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\connection_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.constants',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\constants.py',
+   'PYMODULE'),
+  ('mysql.connector.conversion',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\conversion.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\cursor.py',
+   'PYMODULE'),
+  ('mysql.connector.cursor_cext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\cursor_cext.py',
+   'PYMODULE'),
+  ('mysql.connector.custom_types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\custom_types.py',
+   'PYMODULE'),
+  ('mysql.connector.dbapi',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\dbapi.py',
+   'PYMODULE'),
+  ('mysql.connector.errorcode',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\errorcode.py',
+   'PYMODULE'),
+  ('mysql.connector.errors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\errors.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\fabric\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.balancing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\fabric\\balancing.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.caching',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\fabric\\caching.py',
+   'PYMODULE'),
+  ('mysql.connector.fabric.connection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\fabric\\connection.py',
+   'PYMODULE'),
+  ('mysql.connector.locales',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\locales\\__init__.py',
+   'PYMODULE'),
+  ('mysql.connector.network',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\network.py',
+   'PYMODULE'),
+  ('mysql.connector.optionfiles',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\optionfiles.py',
+   'PYMODULE'),
+  ('mysql.connector.pooling',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\pooling.py',
+   'PYMODULE'),
+  ('mysql.connector.protocol',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\protocol.py',
+   'PYMODULE'),
+  ('mysql.connector.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\utils.py',
+   'PYMODULE'),
+  ('mysql.connector.version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\mysql\\connector\\version.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\numbers.py',
+   'PYMODULE'),
+  ('numpy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._generic_alias',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_generic_alias.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\opcode.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\optparse.py',
+   'PYMODULE'),
+  ('pandas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\__init__.py',
+   'PYMODULE'),
+  ('pandas._testing._io',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\_io.py',
+   'PYMODULE'),
+  ('pandas._testing._random',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\_random.py',
+   'PYMODULE'),
+  ('pandas._testing._warnings',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\_warnings.py',
+   'PYMODULE'),
+  ('pandas._testing.asserters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\asserters.py',
+   'PYMODULE'),
+  ('pandas._testing.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\compat.py',
+   'PYMODULE'),
+  ('pandas._testing.contexts',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_testing\\contexts.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.interchange',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\api\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.compat.pyarrow',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\compat\\pyarrow.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.executor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\executor.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.mean_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\mean_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.min_max_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\min_max_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.shared',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\shared.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.sum_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\sum_.py',
+   'PYMODULE'),
+  ('pandas.core._numba.kernels.var_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\_numba\\kernels\\var_.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.putmask',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\putmask.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.quantile',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\quantile.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.take',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\take.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow._arrow_utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.array',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.dtype',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.arrow.extension_types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\arrow\\extension_types.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.describe',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\describe.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.astype',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\astype.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.indexing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.objects',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexers\\objects.py',
+   'PYMODULE'),
+  ('pandas.core.indexers.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexers\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.interchange',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.buffer',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\buffer.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.column',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\column.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.dataframe_protocol',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.from_dataframe',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\from_dataframe.py',
+   'PYMODULE'),
+  ('pandas.core.interchange.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\interchange\\utils.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\api.py',
+   'PYMODULE'),
+  ('pandas.core.internals.array_manager',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\array_manager.py',
+   'PYMODULE'),
+  ('pandas.core.internals.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.encoding',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\encoding.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.roperator',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.sample',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\sample.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.doc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\doc.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.online',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\online.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style_render',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\style_render.py',
+   'PYMODULE'),
+  ('pandas.io.formats.xml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\formats\\xml.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.arrow_parser_wrapper',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\arrow_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.base_parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\base_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.c_parser_wrapper',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.python_parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\python_parser.py',
+   'PYMODULE'),
+  ('pandas.io.parsers.readers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\parsers\\readers.py',
+   'PYMODULE'),
+  ('pandas.io.pickle',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.io.pytables',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.xml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\io\\xml.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.boxplot',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\boxplot.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\compat.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.converter',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\converter.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.groupby',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\groupby.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.hist',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\hist.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.misc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.style',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\style.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.timeseries',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\timeseries.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.tools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\tools.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas.util.version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pandas\\util\\version\\__init__.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._adapters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._itertools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._legacy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.abc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.readers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.simple',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.context',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.functools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\functools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.text',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.more',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.recipes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._manylinux',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._musllinux',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.actions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\actions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.diagram',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\diagram\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\exceptions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.helpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\helpers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.results',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\results.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.testing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\testing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.unicode',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\unicode.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\util.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.zipp',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pprint.py',
+   'PYMODULE'),
+  ('profile',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\profile.py',
+   'PYMODULE'),
+  ('pstats',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pstats.py',
+   'PYMODULE'),
+  ('psutil',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\__init__.py',
+   'PYMODULE'),
+  ('psutil._common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_common.py',
+   'PYMODULE'),
+  ('psutil._compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_compat.py',
+   'PYMODULE'),
+  ('psutil._psaix',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_psaix.py',
+   'PYMODULE'),
+  ('psutil._psbsd',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_psbsd.py',
+   'PYMODULE'),
+  ('psutil._pslinux',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_pslinux.py',
+   'PYMODULE'),
+  ('psutil._psosx',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_psosx.py',
+   'PYMODULE'),
+  ('psutil._psposix',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_psposix.py',
+   'PYMODULE'),
+  ('psutil._pssunos',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_pssunos.py',
+   'PYMODULE'),
+  ('psutil._pswindows',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psutil\\_pswindows.py',
+   'PYMODULE'),
+  ('psycopg2',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\__init__.py',
+   'PYMODULE'),
+  ('psycopg2._ipaddress',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\_ipaddress.py',
+   'PYMODULE'),
+  ('psycopg2._json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\_json.py',
+   'PYMODULE'),
+  ('psycopg2._range',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\_range.py',
+   'PYMODULE'),
+  ('psycopg2.extensions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\extensions.py',
+   'PYMODULE'),
+  ('psycopg2.extras',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\extras.py',
+   'PYMODULE'),
+  ('psycopg2.sql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\psycopg2\\sql.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pytz',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\random.py',
+   'PYMODULE'),
+  ('rlcompleter',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\rlcompleter.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\selectors.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\signal.py',
+   'PYMODULE'),
+  ('six',
+   'W:\\work\\flask new\\client management\\venv\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('sqlalchemy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\connectors\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.connectors.pyodbc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\connectors\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.cyextension',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\cyextension\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.information_schema',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\information_schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pymssql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pymssql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mssql.pyodbc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mssql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.aiomysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\aiomysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.asyncmy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\asyncmy.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.cymysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\cymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.dml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.enumerated',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\enumerated.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.expression',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\expression.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mariadbconnector',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mariadbconnector.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqlconnector',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqlconnector.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.mysqldb',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\mysqldb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pymysql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pymysql.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.pyodbc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\pyodbc.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.reflection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.reserved_words',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\reserved_words.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.mysql.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\mysql\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.cx_oracle',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\cx_oracle.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.dictionary',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\dictionary.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.oracledb',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\oracledb.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.oracle.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\oracle\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql._psycopg_common',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\_psycopg_common.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.array',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\array.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.asyncpg',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\asyncpg.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.dml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ext.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.hstore',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\hstore.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.named_types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\named_types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pg8000',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pg8000.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.pg_catalog',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\pg_catalog.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.psycopg2cffi',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\psycopg2cffi.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.ranges',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\ranges.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.postgresql.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\postgresql\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.aiosqlite',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\aiosqlite.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.dml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.json',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\json.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlcipher',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlcipher.py',
+   'PYMODULE'),
+  ('sqlalchemy.dialects.sqlite.pysqlite',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\dialects\\sqlite\\pysqlite.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine._py_processors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\_py_processors.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine._py_row',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\_py_row.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine._py_util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\_py_util.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.characteristics',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\characteristics.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.create',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\create.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.cursor',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\cursor.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.default',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\default.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.events',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.interfaces',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.mock',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\mock.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.processors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\processors.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.reflection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\reflection.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.result',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\result.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.row',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\row.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.strategies',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\strategies.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.url',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\url.py',
+   'PYMODULE'),
+  ('sqlalchemy.engine.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\engine\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.event',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\api.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.attr',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\attr.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.legacy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\legacy.py',
+   'PYMODULE'),
+  ('sqlalchemy.event.registry',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\event\\registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.events',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.exc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.engine',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\engine.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.exc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.result',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\result.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.scoping',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\scoping.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.asyncio.session',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\asyncio\\session.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.baked',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\baked.py',
+   'PYMODULE'),
+  ('sqlalchemy.ext.compiler',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\ext\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.future',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\future\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.future.engine',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\future\\engine.py',
+   'PYMODULE'),
+  ('sqlalchemy.inspection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\inspection.py',
+   'PYMODULE'),
+  ('sqlalchemy.log',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\log.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm._orm_constructors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\_orm_constructors.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm._typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\_typing.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.attributes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\attributes.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.bulk_persistence',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\bulk_persistence.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.clsregistry',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\clsregistry.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.collections',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.context',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\context.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.decl_api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\decl_api.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.decl_base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\decl_base.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dependency',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\dependency.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.descriptor_props',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\descriptor_props.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.dynamic',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\dynamic.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.evaluator',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\evaluator.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.events',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.exc',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\exc.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.identity',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\identity.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.instrumentation',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\instrumentation.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.interfaces',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\interfaces.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.loading',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\loading.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.mapped_collection',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\mapped_collection.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.mapper',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\mapper.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.path_registry',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\path_registry.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.persistence',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\persistence.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.properties',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\properties.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.query',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\query.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.relationships',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\relationships.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.scoping',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\scoping.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.session',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\session.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.state',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\state.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.state_changes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\state_changes.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategies',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\strategies.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.strategy_options',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\strategy_options.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.sync',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\sync.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.unitofwork',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\unitofwork.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.orm.writeonly',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\orm\\writeonly.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\pool\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\pool\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.events',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\pool\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.pool.impl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\pool\\impl.py',
+   'PYMODULE'),
+  ('sqlalchemy.schema',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._dml_constructors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_dml_constructors.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._elements_constructors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_elements_constructors.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._orm_types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_orm_types.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._py_util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_py_util.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._selectable_constructors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_selectable_constructors.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql._typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\_typing.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.annotation',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\annotation.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.base',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\base.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.cache_key',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\cache_key.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.coercions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\coercions.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.compiler',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\compiler.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.crud',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\crud.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.ddl',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\ddl.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.default_comparator',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\default_comparator.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.dml',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\dml.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.elements',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\elements.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.events',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\events.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.expression',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\expression.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.functions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\functions.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.lambdas',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\lambdas.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.naming',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\naming.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.operators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\operators.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.roles',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\roles.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.schema',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\schema.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.selectable',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\selectable.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.sqltypes',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\sqltypes.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.traversals',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\traversals.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.type_api',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\type_api.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\util.py',
+   'PYMODULE'),
+  ('sqlalchemy.sql.visitors',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\sql\\visitors.py',
+   'PYMODULE'),
+  ('sqlalchemy.types',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\types.py',
+   'PYMODULE'),
+  ('sqlalchemy.util',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\__init__.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._collections',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\_collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._concurrency_py3k',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\_concurrency_py3k.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._has_cy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\_has_cy.py',
+   'PYMODULE'),
+  ('sqlalchemy.util._py_collections',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\_py_collections.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\compat.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.concurrency',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\concurrency.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.deprecations',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\deprecations.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.langhelpers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\langhelpers.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.preloaded',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\preloaded.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.queue',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\queue.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.topological',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\topological.py',
+   'PYMODULE'),
+  ('sqlalchemy.util.typing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\sqlalchemy\\util\\typing.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('templates',
+   'W:\\work\\flask new\\client management exe application\\client management '
+   'postgres\\templates.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\threading.py',
+   'PYMODULE'),
+  ('timeit',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\timeit.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\typing.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\uu.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\uuid.py',
+   'PYMODULE'),
+  ('waitress',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\__init__.py',
+   'PYMODULE'),
+  ('waitress.adjustments',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\adjustments.py',
+   'PYMODULE'),
+  ('waitress.buffers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\buffers.py',
+   'PYMODULE'),
+  ('waitress.channel',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\channel.py',
+   'PYMODULE'),
+  ('waitress.compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\compat.py',
+   'PYMODULE'),
+  ('waitress.parser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\parser.py',
+   'PYMODULE'),
+  ('waitress.proxy_headers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\proxy_headers.py',
+   'PYMODULE'),
+  ('waitress.receiver',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\receiver.py',
+   'PYMODULE'),
+  ('waitress.rfc7230',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\rfc7230.py',
+   'PYMODULE'),
+  ('waitress.server',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\server.py',
+   'PYMODULE'),
+  ('waitress.task',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\task.py',
+   'PYMODULE'),
+  ('waitress.trigger',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\trigger.py',
+   'PYMODULE'),
+  ('waitress.utilities',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\utilities.py',
+   'PYMODULE'),
+  ('waitress.wasyncore',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\waitress\\wasyncore.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('werkzeug',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug._internal',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\_internal.py',
+   'PYMODULE'),
+  ('werkzeug._reloader',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\_reloader.py',
+   'PYMODULE'),
+  ('werkzeug.datastructures',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\datastructures.py',
+   'PYMODULE'),
+  ('werkzeug.debug',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\debug\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.debug.console',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\debug\\console.py',
+   'PYMODULE'),
+  ('werkzeug.debug.repr',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\debug\\repr.py',
+   'PYMODULE'),
+  ('werkzeug.debug.tbtools',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\debug\\tbtools.py',
+   'PYMODULE'),
+  ('werkzeug.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.formparser',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\formparser.py',
+   'PYMODULE'),
+  ('werkzeug.http',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\http.py',
+   'PYMODULE'),
+  ('werkzeug.local',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\local.py',
+   'PYMODULE'),
+  ('werkzeug.middleware',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.middleware.shared_data',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\middleware\\shared_data.py',
+   'PYMODULE'),
+  ('werkzeug.routing',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.routing.converters',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\converters.py',
+   'PYMODULE'),
+  ('werkzeug.routing.exceptions',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\exceptions.py',
+   'PYMODULE'),
+  ('werkzeug.routing.map',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\map.py',
+   'PYMODULE'),
+  ('werkzeug.routing.matcher',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\matcher.py',
+   'PYMODULE'),
+  ('werkzeug.routing.rules',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\routing\\rules.py',
+   'PYMODULE'),
+  ('werkzeug.sansio',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.http',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\http.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.multipart',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\multipart.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.request',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\request.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.response',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\response.py',
+   'PYMODULE'),
+  ('werkzeug.sansio.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\sansio\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.security',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\security.py',
+   'PYMODULE'),
+  ('werkzeug.serving',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\serving.py',
+   'PYMODULE'),
+  ('werkzeug.test',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\test.py',
+   'PYMODULE'),
+  ('werkzeug.urls',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\urls.py',
+   'PYMODULE'),
+  ('werkzeug.user_agent',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\user_agent.py',
+   'PYMODULE'),
+  ('werkzeug.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\utils.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\wrappers\\__init__.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.request',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\wrappers\\request.py',
+   'PYMODULE'),
+  ('werkzeug.wrappers.response',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\wrappers\\response.py',
+   'PYMODULE'),
+  ('werkzeug.wsgi',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\werkzeug\\wsgi.py',
+   'PYMODULE'),
+  ('wtforms',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.csrf',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\csrf\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.csrf.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\csrf\\core.py',
+   'PYMODULE'),
+  ('wtforms.csrf.session',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\csrf\\session.py',
+   'PYMODULE'),
+  ('wtforms.fields',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.fields.choices',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\choices.py',
+   'PYMODULE'),
+  ('wtforms.fields.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\core.py',
+   'PYMODULE'),
+  ('wtforms.fields.datetime',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\datetime.py',
+   'PYMODULE'),
+  ('wtforms.fields.form',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\form.py',
+   'PYMODULE'),
+  ('wtforms.fields.list',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\list.py',
+   'PYMODULE'),
+  ('wtforms.fields.numeric',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\numeric.py',
+   'PYMODULE'),
+  ('wtforms.fields.simple',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\fields\\simple.py',
+   'PYMODULE'),
+  ('wtforms.form',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\form.py',
+   'PYMODULE'),
+  ('wtforms.i18n',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\i18n.py',
+   'PYMODULE'),
+  ('wtforms.meta',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\meta.py',
+   'PYMODULE'),
+  ('wtforms.utils',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\utils.py',
+   'PYMODULE'),
+  ('wtforms.validators',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\validators.py',
+   'PYMODULE'),
+  ('wtforms.widgets',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\widgets\\__init__.py',
+   'PYMODULE'),
+  ('wtforms.widgets.core',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms\\widgets\\core.py',
+   'PYMODULE'),
+  ('wtforms_sqlalchemy',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms_sqlalchemy\\__init__.py',
+   'PYMODULE'),
+  ('wtforms_sqlalchemy.fields',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\wtforms_sqlalchemy\\fields.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\pulki\\AppData\\Local\\Programs\\Python\\Python39\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('zipp',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('zipp.py310compat',
+   'W:\\work\\flask new\\client '
+   'management\\venv\\lib\\site-packages\\zipp\\py310compat.py',
+   'PYMODULE')])

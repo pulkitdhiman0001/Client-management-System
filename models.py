@@ -59,14 +59,17 @@ class Users(db.Model):
     email = db.Column(db.String(100))
     phone_no = db.Column(db.String(100))
     password = db.Column(db.String())
-
-    def __init__(self, username, firstname, last_name, email, phone_no, password):
+    otp = db.Column(db.String(10))
+    otp_flag = db.Column(db.Boolean, default=False)
+    def __init__(self, username, firstname, last_name, email, phone_no, password, otp, otp_flag):
         self.username = username
         self.first_name = firstname
         self.last_name = last_name
         self.email = email
         self.phone_no = phone_no
         self.password = password
+        self.otp = otp
+        self.otp_flag = otp_flag
 
 
 class Client(db.Model):

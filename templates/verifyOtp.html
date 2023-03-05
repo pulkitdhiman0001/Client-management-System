@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verify OTP</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/alert.css')}}">
+
+    <style>
+        label{
+            font-weight:bold;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+{% include 'alert.html' %}
+<div class="row w-25 mx-auto shadow-lg p-4 mb-5 bg-white rounded" style="margin-top:9rem">
+
+    <div class="row">
+        <form method="POST" action="{{url_for('verify_otp')}}">
+            <div class="row">
+                <div class="col">
+                    <h6>A OTP (One Time Password) has been sent to '{{user}}'. Please enter the OTP to verify your
+                        E-Mail.</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="{{url_for('login')}}" style="text-decoration:none">Back to Login</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-2">
+                <div class="col">
+                    <label>Enter OTP</label>
+                    <input type="text" name="verify_otp" class="form-control">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <button type="submit" class="btn btn-info btn-bg w-100">Verify</button>
+                </div>
+            </div>
+            <input type="text" value="{{user}}" name="user" hidden>
+        </form>
+    </div>
+    <div class="row mt-2">
+        <form method="POST" action="{{url_for('generate_new_otp')}}">
+
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-info btn-bg w-100" id="generate_new_otp" disabled>Generate New
+                        OTP <span id="timer"></span></button>
+                </div>
+            </div>
+
+            <input type="text" value="{{user}}" name="user" hidden>
+        </form>
+    </div>
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+
+let timerOn = true;
+
+function timer(remaining) {
+  var m = Math.floor(remaining / 60);
+  var s = remaining % 60;
+
+  m = m < 10 ? '0' + m : m;
+  s = s < 10 ? '0' + s : s;
+  document.getElementById('timer').innerHTML = m + ':' + s;
+  remaining -= 1;
+
+  if(remaining >= 0 && timerOn) {
+    setTimeout(function() {
+        timer(remaining);
+    }, 1000);
+    return;
+  }
+
+  if(!timerOn) {
+    // Do validate stuff here
+    return;
+  }
+
+  // Do timeout stuff here
+  $('#generate_new_otp').prop('disabled', false);
+  $('#timer').css('display', 'none');
+}
+
+timer(30);
+
+
+
+
+
+
+
+
+</script>
+</html>

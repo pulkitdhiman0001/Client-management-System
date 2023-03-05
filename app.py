@@ -17,6 +17,12 @@ from form import Form
 from models import db, create_app, Client, SalesOrder, SalesOrderStatus, Users, PaymentVoucher, PaymentStatus, Gst
 from templates import Templates
 
+from flaskwebgui import FlaskUI
+
+import random
+
+from flask_mail import Mail, Message
+
 app = create_app()
 migrate = Migrate(app, db, render_as_batch=True)
 
@@ -39,6 +45,37 @@ last_updated = date_now.strftime("%d/%b/%Y")
 last_updated_time = time_now.strftime("%I:%M %p")
 
 No_Record_Found = 'No Record Found'
+
+print('testing')
+
+data_folder = os.path.exists(os.path.join(os.curdir, 'data'))
+if not data_folder:
+    print('test')
+    directory = 'data'
+    base_path = os.curdir
+    path = os.path.join(base_path, directory)
+    os.mkdir(path)
+
+if not os.path.exists(os.path.join(os.curdir, 'data/clientList')):
+    print('test')
+    directory = 'clientList'
+    base_path = os.path.join(os.curdir, 'data')
+    path = os.path.join(base_path, directory)
+    os.mkdir(path)
+
+if not os.path.exists(os.path.join(os.curdir, 'data/reportGenerated')):
+    print('test')
+    directory = 'reportGenerated'
+    base_path = os.path.join(os.curdir, 'data')
+    path = os.path.join(base_path, directory)
+    os.mkdir(path)
+
+if not os.path.exists(os.path.join(os.curdir, 'data/uploadedBills')):
+    print('test')
+    directory = 'uploadedBills'
+    base_path = os.path.join(os.curdir, 'data')
+    path = os.path.join(base_path, directory)
+    os.mkdir(path)
 
 
 @app.errorhandler(404)
@@ -65,55 +102,56 @@ def login():
 
         flash('Username or password is incorrect', category='error')
     return render_template(Templates.login)
+    return redirect(url_for('list_of_sales_order', page=1))
 
 
 # create new admin
 @app.route('/add-user', methods=['GET', 'POST'])
 def add_user():
-    if 'username' in session:
-        if request.method == 'POST':
-            userpass = request.form["password"]
+    # if 'username' in session:
+    if request.method == 'POST':
+        userpass = request.form["password"]
 
-            confirm_userpass = request.form["confirm_password"]
-            hash_pass = generate_password_hash(userpass)
-            email_regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
-            if not request.form["first_name"].isalpha():
-                flash("Only Alphabets allowed in First name", category='error')
-                return render_template(Templates.register)
-            elif not request.form["last_name"].isalpha():
-                flash("Only Alphabets allowed in Last name", category='error')
-                return render_template(Templates.register)
-            elif not re.match(email_regex, request.form["email"]):
-                flash("Invalid Email", category='error')
-                return render_template(Templates.register)
-            elif not request.form["phone_no"].isdigit():
-                flash("Only Digits allowed in Phone No.", category='error')
-                return render_template(Templates.register)
+        confirm_userpass = request.form["confirm_password"]
+        hash_pass = generate_password_hash(userpass)
+        email_regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+        if not request.form["first_name"].isalpha():
+            flash("Only Alphabets allowed in First name", category='error')
+            return render_template(Templates.register)
+        elif not request.form["last_name"].isalpha():
+            flash("Only Alphabets allowed in Last name", category='error')
+            return render_template(Templates.register)
+        elif not re.match(email_regex, request.form["email"]):
+            flash("Invalid Email", category='error')
+            return render_template(Templates.register)
+        elif not request.form["phone_no"].isdigit():
+            flash("Only Digits allowed in Phone No.", category='error')
+            return render_template(Templates.register)
 
-            add_new_user = Users(username=request.form["username"], firstname=request.form["first_name"],
-                                 last_name=request.form["last_name"], email=request.form["email"],
-                                 phone_no=request.form["phone_no"], password=hash_pass)
-            exists = db.session.query(db.exists().where(
-                Users.username == request.form["username"])).scalar()
-            if exists:
-                flash("User with same username already exists", category='error')
-                return render_template(Templates.register)
-            if userpass != confirm_userpass:
-                flash("Password does not match", category='error')
-                return render_template(Templates.register)
-            pass_regex = r"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
-            if not re.match(pass_regex, userpass):
-                flash("Password must contain Minimum eight characters, at least one letter and one number:",
-                      category='error')
-                return render_template(Templates.register)
-            else:
-                db.session.add(add_new_user)
-                db.session.commit()
-                flash('User Created', category='success')
-                return redirect(url_for('manage_users'))
-        return render_template(Templates.register)
+        add_new_user = Users(username=request.form["username"], firstname=request.form["first_name"],
+                             last_name=request.form["last_name"], email=request.form["email"],
+                             phone_no=request.form["phone_no"], password=hash_pass, otp=None, otp_flag=False)
+        exists = db.session.query(db.exists().where(
+            Users.username == request.form["username"])).scalar()
+        if exists:
+            flash("User with same username already exists", category='error')
+            return render_template(Templates.register)
+        if userpass != confirm_userpass:
+            flash("Password does not match", category='error')
+            return render_template(Templates.register)
+        pass_regex = r"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+        if not re.match(pass_regex, userpass):
+            flash("Password must contain Minimum eight characters, at least one letter and one number:",
+                  category='error')
+            return render_template(Templates.register)
+        else:
+            db.session.add(add_new_user)
+            db.session.commit()
+            flash('User Created', category='success')
+            return redirect(url_for('manage_users'))
+    return render_template(Templates.register)
 
-    return render_template(Templates.login)
+    # return render_template(Templates.login)
 
 
 # logout
@@ -387,7 +425,10 @@ def csv_for_client():
             print(final)
             write_file.writerow(final)
 
-    return send_from_directory(Client_List_File, file_name, as_attachment=True)
+    # return send_from_directory(Client_List_File, file_name, as_attachment=True)
+    pd.read_csv(os.path.join(Client_List_File, file_name)).to_csv(os.path.join(Client_List_File, file_name))
+    os.startfile(f"{Client_List_File}/{file_name}")
+    return redirect(url_for('all_client_names', page=1))
 
 
 # list of Sales Orders
@@ -957,7 +998,12 @@ def csv_file_sale_order_to_update():
                              sale_order.bill_date, sale_order.amount, sale_order.gst, sale_order.gst_amount,
                              sale_order.total_amount, sale_order.amount_received_date]
                     write_file.writerow(final)
-        return send_from_directory(Report_Generated_File, file_name, as_attachment=True)
+            # send_from_directory(Report_Generated_File, file_name)
+            pd.read_csv(os.path.join(Report_Generated_File, file_name)).to_csv(
+                os.path.join(Report_Generated_File, file_name))
+            os.startfile(f"{Report_Generated_File}/{file_name}")
+            return redirect(url_for('list_of_sales_order', page=1))
+    return render_template(Templates.login)
 
 
 # List of payment vouchers
@@ -1148,7 +1194,6 @@ def approve_voucher(voucher_id):
         client = Client.query.filter_by(id=sale_order.client_id).first()
         total_vouchers = PaymentVoucher.query.filter(PaymentVoucher.sales_order_id == sale_order.id).all()
 
-
         if client.credit_amount == 0 and voucher_to_update.amount == client.overall_payable:
             print("test")
             if voucher_to_update.amount < sale_order.total_payable:
@@ -1237,7 +1282,6 @@ def approve_voucher(voucher_id):
                 client.overall_payable = client.overall_payable - sale_order.total_payable
                 client.overall_received = client.overall_received + sale_order.total_payable
                 sale_order.total_payable = 0
-
 
         if sale_order.total_paid >= sale_order.total_amount:
             sale_order.status = SalesOrderStatus.received.value
@@ -1377,22 +1421,33 @@ def file_upload():
                                       f"Duplicate Bill No. at Row No. {count + 2}.")
                                 return redirect(url_for('file_upload'))
 
+                            try:
+                                datetime.datetime.strptime(read_file.loc[count, 'Amount Received Date'],
+                                                           "%d-%m-%Y").strftime("%Y-%m-%d")
+                                amount_received_date = datetime.datetime.strptime(
+                                    read_file.loc[count, 'Amount Received Date'], "%d-%m-%Y").strftime("%Y-%m-%d")
+                            except:
+                                amount_received_date = None
+
                             new_sale_order = SalesOrder(client_id=get_client_id.id,
                                                         content_advt=read_file.loc[count, 'AD/GP/Others'],
                                                         date_of_order=
-                                                        read_file.loc[count, 'RO Date'],
-                                                        dop=read_file.loc[count, 'DoP'],
+                                                        datetime.datetime.strptime(read_file.loc[count, 'RO Date'],
+                                                                                   "%d-%m-%Y").strftime("%Y-%m-%d"),
+                                                        dop=datetime.datetime.strptime(read_file.loc[count, 'DoP'],
+                                                                                       "%d-%m-%Y").strftime("%Y-%m-%d"),
 
                                                         bill=int(read_file.loc[count, 'Bill No.']),
-                                                        bill_date=
-                                                        read_file.loc[count, 'Bill Date'],
+                                                        bill_date=datetime.datetime.strptime(
+                                                            read_file.loc[count, 'Bill Date'],
+                                                            "%d-%m-%Y").strftime("%Y-%m-%d")
+                                                        ,
                                                         amount=float(read_file.loc[count, 'Amount(Rs.)']),
                                                         gst_amount=float(read_file.loc[count, 'GST(Rs.)']),
                                                         total_amount=float(
                                                             read_file.loc[count, 'Total(Including GST)']),
                                                         gst=str(read_file.loc[count, 'GST(%)']),
-                                                        amount_received_date=read_file.loc[
-                                                            count, 'Amount Received Date'],
+                                                        amount_received_date=amount_received_date,
                                                         total_paid=0, total_payable=float(
                                     read_file.loc[count, 'Total(Including GST)']), adjusted_credit=0
                                                         )
@@ -1406,21 +1461,100 @@ def file_upload():
     return render_template(Templates.file_upload)
 
 
+@app.route('/forgot-password/')
+def password_recovery_landing_page():
+    return render_template(Templates.forgot_password)
 
 
-# def start_flask(**server_kwargs):
-#
-#     app = server_kwargs.pop("app", None)
-#     server_kwargs.pop("debug", None)
-#
-#     try:
-#         import waitress
-#
-#         waitress.serve(app, **server_kwargs)
-#     except:
-#         app.run(**server_kwargs)
+mail = Mail(app)
+
+
+@app.route('/verify-otp/', methods=['GET', 'POST'])
+def send_mail():
+    if request.method == 'POST':
+        print("send_mail")
+        otp_generate = random.randrange(9999)
+
+        msg = Message("Request for OTP (One Time Password)",
+                      sender="pulkitdhiman411@gmail.com",
+                      recipients=[request.form["email_username"]])
+        msg.body = f"Your One Time Password is {otp_generate}"
+
+        mail.send(msg)
+
+        get_user = Users.query.filter_by(email=request.form["email_username"]).first()
+        if get_user:
+            get_user.otp = otp_generate
+            get_user.otp_flag = False
+            print(get_user.otp, 'OTP')
+            db.session.commit()
+            return render_template(Templates.verifyOtp, user=get_user.email)
+
+        else:
+            flash(f"No account found with the E-Mail: {request.form['email_username']}", category='error')
+
+    return render_template(Templates.forgot_password)
+
+
+@app.route('/generate-new-otp', methods=['GET', 'POST'])
+def generate_new_otp():
+    get_user = Users.query.filter_by(email=request.form["user"]).first()
+    if request.method == "POST":
+        otp_generate = random.randrange(9999)
+        msg = Message("Request for OTP (One Time Password)",
+                      sender="pulkitdhiman411@gmail.com",
+                      recipients=[request.form["user"]])
+        msg.body = f"Your One Time Password is {otp_generate}"
+        mail.send(msg)
+        get_user.otp = otp_generate
+        get_user.otp_flag = False
+        print(get_user.otp, 'OTP')
+        db.session.commit()
+        flash("Email With New OTP Sent", category='success')
+        return render_template(Templates.verifyOtp, user=get_user.email)
+    return render_template('verifyOtp.html', user=get_user)
+
+
+@app.route('/reset-password', methods=['GET', 'POST'])
+def verify_otp():
+    if request.method == "POST":
+        print('test')
+        get_user = Users.query.filter_by(email=request.form["user"]).first()
+
+        if get_user.otp == request.form['verify_otp'] and get_user.otp_flag is False:
+            get_user.otp_flag = True
+            db.session.commit()
+            return render_template(Templates.reset_password, user=get_user.email)
+        else:
+            flash('Invalid OTP. OTP already used or is Expired', category='error')
+            return render_template(Templates.verifyOtp, user=get_user.email)
+    return render_template(Templates.verifyOtp)
+
+
+@app.route('/reset-pass', methods=['GET', 'POST'])
+def reset_pass():
+    if request.method == "POST":
+        get_user = Users.query.filter_by(email=request.form["user"]).first()
+        print(get_user)
+        new_password = request.form["new_password"]
+        confirm_password = request.form["confirm_password"]
+
+        if new_password != confirm_password:
+            flash("Password doesn't match", category='error')
+            return render_template(Templates.reset_password, user=get_user.email)
+        pass_regex = r"^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+        if not re.match(pass_regex, new_password):
+            flash("Password must contain Minimum eight characters, at least one letter and one number:",
+                  category='error')
+            return render_template(Templates.reset_password, user=get_user.email)
+        else:
+            get_user.password = generate_password_hash(new_password)
+            db.session.commit()
+            flash('Password Changed Successfully', category='success')
+            return redirect(url_for('login'))
 
 
 if __name__ == "__main__":
-    app.run()
-
+    FlaskUI(app=app, server='flask',
+            browser_path=os.path.join('C:\Program Files\Google\Chrome\Application', 'chrome.exe')).run()
+    # app.run()

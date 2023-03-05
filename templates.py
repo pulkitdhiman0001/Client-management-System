@@ -19,3 +19,7 @@ class Templates:
     update_multi_record_status = "update_check_status.html"
     update_client = "client_details.html"
     update_status = "update_status.html"
+    forgot_password = "forgot_password.html"
+    verifyOtp = "verifyOtp.html"
+    password_recovery_landing_page = "forgot_password.html"
+    reset_password = "reset_password.html"
