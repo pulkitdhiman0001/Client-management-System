@@ -1,5 +1,5 @@
 {%extends "index.html"%}
-
+{%block title%}Import Sale Orders{% endblock %}
 {%block content%}
 {%- for category, message in get_flashed_messages(with_categories = true) %}
 <span style="width:50px;">
@@ -16,24 +16,92 @@
 <br>
 
 
-
-
-
-
 <div class="d-grid gap-2 col-3 mx-auto" style="margin:auto; margin-top:8%">
     <form class="col g-3" action={{request.path}} method="post" enctype="multipart/form-data">
         <div class="mb-2">
             <label class="form-label">Bill PDF/Excel</label>
-                    <input type="file" class="form-control" name="file" accept=".csv" required>
+            <input type="file" class="form-control" name="file" id="uploadBox" accept=".csv" required>
         </div>
 
 
         <br>
         <div class="d-grid gap-2 col-6 mx-auto">
-            <button type="submit" class="btn btn-info btn-bg btn-sm">Import</button>
+            <button type="submit" class="btn btn-info btn-bg btn-sm button"
+                    onclick="show_loader()"><span id="import" style="display:block">Import</span>
+
+                <!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
+                <span id="loader" style="display:none">
+                    Importing...
+                    <svg id="loader" width="15" height="15" viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                        <circle cx="12.5" cy="12.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="0s" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="12.5" cy="52.5" r="12.5" fill-opacity=".5">
+                            <animate attributeName="fill-opacity"
+                                     begin="100ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="52.5" cy="12.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="300ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="52.5" cy="52.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="600ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="92.5" cy="12.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="800ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="92.5" cy="52.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="400ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="12.5" cy="92.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="700ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="52.5" cy="92.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="500ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="92.5" cy="92.5" r="12.5">
+                            <animate attributeName="fill-opacity"
+                                     begin="200ms" dur="1s"
+                                     values="1;.2;1" calcMode="linear"
+                                     repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+
+                </span>
+            </button>
         </div>
 
     </form>
 </div>
+<script>
 
+   function show_loader(){
+if(document.getElementById("uploadBox").value != "") {
+       document.getElementById("loader").style.display = "block";
+       document.getElementById("import").style.display = "none";
+       }
+}
+</script>
 {%endblock%}

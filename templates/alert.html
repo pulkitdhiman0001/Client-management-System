@@ -1,17 +1,21 @@
 {%- for category, message in get_flashed_messages(with_categories = true) %}
 
 
-    {%if category== 'success'%}
-    <div class="success p-1" id="alert-success">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        {{ message }}
-    </div>
-    {%else%}
-    <div class="error p-1" id="alert-error">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        {{ message }}
-    </div>
-    {%endif%}
+{%if category== 'success'%}
+<div class="alert alert-success alert-dismissible fade show w-100" style="position:fixed; top:67px; z-index:1" role="alert" id="alert-success">
+    {{message}}
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
+
+    </button>
+</div>
+{%else%}
+<div class="alert alert-danger alert-dismissible fade show w-100" style="position:fixed; top:67px; z-index:1" role="alert" id="alert-error">
+    {{message}}
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
+
+    </button>
+</div>
+{%endif%}
 
 
 {%- endfor %}
@@ -38,5 +42,6 @@
         alert_error.style.display = 'none';
     }, 5000);
     }
+
 
 </script>

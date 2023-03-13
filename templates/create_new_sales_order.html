@@ -1,5 +1,5 @@
 {% extends 'index.html' %}
-
+{%block title%}New Sale Order{% endblock %}
 {% block content %}
 {% include 'alert.html' %}
 
@@ -8,17 +8,6 @@
 label{
 font-weight:bold;
 }
-
-
-
-
-
-
-
-
-
-
-
 </style>
 <form action="{{request.path}}" method="post" enctype="multipart/form-data">
 <div class="row w-75 mx-auto" style="margin-top:40px;background-color:#eff4ff; border-radius:20px">

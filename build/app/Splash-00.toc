@@ -1,4 +1,4 @@
-('C:\\Users\\pulki\\Downloads\\splash.png',
+('C:\\Users\\pulki\\Downloads\\b.gif',
  'W:\\work\\flask new\\client management exe application\\client management '
  'postgres\\build\\app\\Splash-00.res',
  'W:\\work\\flask new\\client management exe application\\client management '

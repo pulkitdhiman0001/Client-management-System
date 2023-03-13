@@ -34,9 +34,11 @@ UPLOAD_FOLDER = os.path.join(os.curdir, 'data/uploadedBills')
 ALLOWED_EXTENSIONS = {'pdf'}
 Client_List_File = os.path.join(os.curdir, 'data/clientList')
 Report_Generated_File = os.path.join(os.curdir, 'data/reportGenerated')
+allRecords = os.path.join(os.curdir, 'data/allRecords')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['Client_List_File'] = Client_List_File
 app.config['reportGenerated'] = Report_Generated_File
+app.config['allRecords'] = allRecords
 
 # constants
 email_reg = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
@@ -47,35 +49,37 @@ time_now = datetime.datetime.now()
 last_updated = date_now.strftime("%d/%b/%Y")
 last_updated_time = time_now.strftime("%I:%M %p")
 
-No_Record_Found = 'No Record Found'
+print(last_updated_time, '##############time')
 
-print('testing')
+No_Record_Found = 'No Record Found'
 
 data_folder = os.path.exists(os.path.join(os.curdir, 'data'))
 if not data_folder:
-    print('test')
     directory = 'data'
     base_path = os.curdir
     path = os.path.join(base_path, directory)
     os.mkdir(path)
 
 if not os.path.exists(os.path.join(os.curdir, 'data/clientList')):
-    print('test')
     directory = 'clientList'
     base_path = os.path.join(os.curdir, 'data')
     path = os.path.join(base_path, directory)
     os.mkdir(path)
 
 if not os.path.exists(os.path.join(os.curdir, 'data/reportGenerated')):
-    print('test')
     directory = 'reportGenerated'
     base_path = os.path.join(os.curdir, 'data')
     path = os.path.join(base_path, directory)
     os.mkdir(path)
 
 if not os.path.exists(os.path.join(os.curdir, 'data/uploadedBills')):
-    print('test')
     directory = 'uploadedBills'
+    base_path = os.path.join(os.curdir, 'data')
+    path = os.path.join(base_path, directory)
+    os.mkdir(path)
+
+if not os.path.exists(os.path.join(os.curdir, 'data/allRecords')):
+    directory = 'allRecords'
     base_path = os.path.join(os.curdir, 'data')
     path = os.path.join(base_path, directory)
     os.mkdir(path)
@@ -104,7 +108,7 @@ def login():
                 return redirect(url_for('list_of_sales_order', page=1))
 
         flash('Username or password is incorrect', category='error')
-    return render_template(Templates.login)
+        return render_template(Templates.login)
     return redirect(url_for('list_of_sales_order', page=1))
 
 
@@ -133,7 +137,8 @@ def add_user():
 
         add_new_user = Users(username=request.form["username"], firstname=request.form["first_name"],
                              last_name=request.form["last_name"], email=request.form["email"],
-                             phone_no=request.form["phone_no"], password=hash_pass, otp=None, otp_flag=False)
+                             phone_no=request.form["phone_no"], password=hash_pass, otp=None, otp_flag=False,
+                             otp_expires_at=None)
         exists = db.session.query(db.exists().where(
             Users.username == request.form["username"])).scalar()
         if exists:
@@ -179,11 +184,29 @@ def admin_details(admin_id):
     if 'username' in session:
         admin_to_update = Users.query.filter_by(id=admin_id).first()
         if request.method == 'POST':
-            admin_to_update.username = request.form["username"]
+
             admin_to_update.first_name = request.form["first_name"]
+            admin_to_update.username = request.form["username"]
+            if not request.form["first_name"].isalpha():
+                flash("Only Alphabets allowed in First name. Details not Updated", category='error')
+                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+            elif not request.form["last_name"].isalpha():
+                flash("Only Alphabets allowed in Last name. Details not Updated", category='error')
+                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+
             admin_to_update.last_name = request.form["last_name"]
             admin_to_update.email = request.form["email"]
+            email_regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
+            if not re.match(email_regex, request.form["email"]):
+                flash("Invalid Email. Details Not Updated.", category='error')
+                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+
             admin_to_update.phone_no = request.form["phone_no"]
+
+            if request.form["phone_no"].isalpha() or len(request.form["phone_no"]) != 10:
+                flash("Not a Valid Phone number. Details Not Updated.", category='error')
+                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+
             same_email = Users.query.filter(
                 Users.email == admin_to_update.email)
 
@@ -194,9 +217,10 @@ def admin_details(admin_id):
             for res in same_email:
                 if res.id == admin_to_update.id:
                     continue
+
                 flash("Email already in use", category='error')
 
-                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+                return redirect(url_for('admin_details', admin_id=admin_to_update.id))
 
             for res in same_username:
 
@@ -205,7 +229,10 @@ def admin_details(admin_id):
 
                 flash("Username Already Taken", category='error')
 
-                return render_template(Templates.admin_details, admin_to_update=admin_to_update)
+                return redirect(url_for('admin_details', admin_id=admin_to_update.id))
+            session["username"] = admin_to_update.username
+            session.permanent = True
+            app.permanent_session_lifetime = timedelta(minutes=5)
             db.session.commit()
             flash('User Updated', category='success')
             return redirect(url_for('manage_users'))
@@ -275,10 +302,13 @@ def add_client():
     if "username" in session:
         if request.method == "POST":
             message = ''
-            if any(char.isdigit() for char in request.form["client_name"]):
+            name_regex = '(^[A-Za-z]{3,16})([ ]{0,1})([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})?([ ]{0,' \
+                         '1})?([A-Za-z]{3,16})'
+
+            if not re.fullmatch(name_regex, request.form["client_name"]):
                 message = 'Name cannot contain numbers or any special character'
 
-            if request.form["phone_no"].isalpha() or not len(request.form["phone_no"]) == 10:
+            if request.form["phone_no"].isalpha() or len(request.form["phone_no"]) != 10:
                 message = 'Not a Valid Phone number.'
 
             if not re.fullmatch(email_reg, request.form['email']):
@@ -336,7 +366,11 @@ def update_client(client_id):
 
         if request.method == "POST":
             message = ''
-            if any(char.isdigit() for char in request.form["client_name"]):
+
+            name_regex = '(^[A-Za-z]{3,16})([ ]{0,1})([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})?([ ]{0,' \
+                         '1})?([A-Za-z]{3,16})'
+
+            if not re.fullmatch(name_regex, request.form["client_name"]):
                 message = 'Name cannot contain numbers or any special character. Client details not updated.'
 
             if not re.fullmatch(email_reg, request.form['email']):
@@ -449,10 +483,7 @@ def list_of_sales_order(page):
 
         for i in all_sales_order:
             voucher_count = PaymentVoucher.query.filter(PaymentVoucher.sales_order_id == i.id).all()
-            print(len(voucher_count))
-
             client = Client.query.filter_by(id=i.client_id).first()
-            print(client.overall_payable)
 
         tax_total = 0
 
@@ -535,7 +566,8 @@ def add_sale_order():
                                         total_amount=request.form['total_amount_including_gst'],
                                         filename=os.path.join(UPLOAD_FOLDER, filename), total_paid=0,
                                         total_payable=request.form['total_amount_including_gst'],
-                                        adjusted_credit=0
+                                        adjusted_credit=0, last_updated_date=last_updated,
+                                        last_updated_time=last_updated_time
                                         )
 
                 db.session.add(sale_order)
@@ -555,7 +587,8 @@ def add_sale_order():
                                         total_amount=request.form['total_amount_including_gst'],
                                         gst=request.form["gst"],
                                         filename=None, total_paid=0,
-                                        total_payable=request.form['total_amount_including_gst'], adjusted_credit=0)
+                                        total_payable=request.form['total_amount_including_gst'], adjusted_credit=0,
+                                        last_updated_date=last_updated, last_updated_time=last_updated_time)
 
                 db.session.add(sale_order)
                 client = Client.query.filter_by(id=request.form["client_name"]).first()
@@ -681,6 +714,8 @@ def sale_order_details(sale_order_id):
                 sale_order_to_update.status = SalesOrderStatus.received.value
                 sale_order_to_update.amount_received_date = date_now
 
+            sale_order_to_update.last_updated_date = last_updated
+            sale_order_to_update.last_updated_time = last_updated_time
             db.session.commit()
 
             flash('Sales Order Updated', category='success')
@@ -704,7 +739,7 @@ def sale_order_details(sale_order_id):
             form.process()
 
         return render_template(Templates.sale_order_details, sale_order_to_update=sale_order_to_update, form=form,
-                               last_updated=last_updated, client=client, last_updated_time=last_updated_time,
+                               client=client,
                                total_vouchers=total_vouchers, SalesOrderStatus=SalesOrderStatus)
 
     return render_template(Templates.login)
@@ -730,11 +765,13 @@ def set_cancel(sale_order_id):
     sale_order_to_update.status = SalesOrderStatus.cancelled.value
     sale_order_to_update.amount_received_date = date_now
     client.overall_payable = client.overall_payable - sale_order_to_update.total_amount
+    sale_order_to_update.last_updated_date = last_updated
+    sale_order_to_update.last_updated_time = last_updated_time
     db.session.commit()
     flash('Sales Order Cancelled', category='success')
 
     return render_template(Templates.sale_order_details, sale_order_to_update=sale_order_to_update, form=form,
-                           last_updated=last_updated, client=client, last_updated_time=last_updated_time,
+                           client=client,
                            SalesOrderStatus=SalesOrderStatus)
 
 
@@ -785,7 +822,7 @@ def get_checked_boxes():
                 os.remove(delete_rec.filename)
             db.session.delete(delete_rec)
             db.session.commit()
-            flash(f"Sales Order with bill no. {delete_rec.bill} Deleted", category='success')
+        flash(f"Sales Order Deleted", category='success')
         return redirect(url_for('list_of_sales_order', page=1))
 
     return render_template(Templates.login)
@@ -963,6 +1000,33 @@ def filter_payment_status(filter_by, page):
     return render_template(Templates.login)
 
 
+# export all sale orders at once
+
+@app.route('/export-sale-orders', methods=["GET", "POST"])
+def export_sale_orders():
+    if 'username' in session:
+        all_sale_orders = SalesOrder.query.all()
+        filename = 'sale-orders.csv'
+        with open(os.path.join(allRecords, filename), mode='w', newline='') as sale_order:
+            write_file = csv.writer(sale_order)
+            write_file.writerow(
+                ['Client', 'AD/GP/Others', 'RO Date', 'DoP', 'Bill No.', 'Bill Date', 'Amount(Rs.)', 'GST(%)',
+                 'GST(Rs.)',
+                 'Total(Including GST)', 'Total Paid', 'Total Payable', 'Status', 'Amount Received Date'])
+            for i in all_sale_orders:
+                rows = [i.client_name.client_name, i.content_advt, i.date_of_order, i.dop, i.bill, i.bill_date,
+                        i.amount, i.gst, i.gst_amount, i.total_amount, i.total_paid, i.total_payable, i.status.value,
+                        i.amount_received_date]
+
+                write_file.writerow(rows)
+        pd.read_csv(os.path.join(allRecords, filename)).to_csv(
+            os.path.join(allRecords, filename))
+        flash("Exported Successfully.", category='success')
+        os.startfile(f"{allRecords}/{filename}")
+        return redirect(url_for('list_of_sales_order', page=1))
+    return render_template(Templates.login)
+
+
 # generate csv report for list of sales orders selected
 @app.route('/csv_file_sale_order_to_update', methods=['POST', 'GET'])
 def csv_file_sale_order_to_update():
@@ -986,6 +1050,10 @@ def csv_file_sale_order_to_update():
                                  sale_order.bill_date, sale_order.amount, sale_order.gst, sale_order.gst_amount,
                                  sale_order.total_amount, sale_order.amount_received_date]
                         write_file.writerow(final)
+            pd.read_csv(os.path.join(Report_Generated_File, file_name)).to_csv(
+                os.path.join(Report_Generated_File, file_name))
+            os.startfile(f"{Report_Generated_File}/{file_name}")
+            return redirect(url_for('list_of_sales_order', page=1))
         else:
             file_name = 'sale_order.csv'
             with open(os.path.join(Report_Generated_File, file_name), mode='w', newline='') as file:
@@ -1037,6 +1105,8 @@ def get_checked_boxes_for_all_payment_vouchers():
                 flash("Cannot make changes to voucher with status Approved", category='error')
                 return redirect(url_for('all_vouchers_list', page=1))
 
+            get_sale_order.last_updated_date = last_updated
+            get_sale_order.last_updated_time = last_updated_time
             db.session.delete(delete)
             db.session.commit()
         flash("Voucher Deleted", category='success')
@@ -1080,6 +1150,7 @@ def create_payment_voucher(sale_order_id):
         if request.method == "POST":
 
             if payment_voucher_count < 1:
+
                 voucher_no = 0
 
                 voucher_no += 1
@@ -1087,7 +1158,11 @@ def create_payment_voucher(sale_order_id):
                 voucher = PaymentVoucher(reference_no=ref_no, payment_date=date_today,
                                          amount=request.form["amount"], sales_order_id=sale_order.id,
                                          client_id=sale_order.client_id)
+
+                sale_order.last_updated_date = last_updated
+                sale_order.last_updated_time = last_updated_time
                 db.session.add(voucher)
+
                 db.session.commit()
                 flash('Payment Voucher Created', category='success')
                 return redirect(url_for('voucher_details', voucher_id=voucher.id))
@@ -1098,7 +1173,10 @@ def create_payment_voucher(sale_order_id):
                 voucher = PaymentVoucher(reference_no=ref_no, payment_date=date_today,
                                          amount=request.form["amount"], sales_order_id=sale_order.id,
                                          client_id=sale_order.client_id)
+                sale_order.last_updated_date = last_updated
+                sale_order.last_updated_time = last_updated_time
                 db.session.add(voucher)
+
                 db.session.commit()
                 flash('Payment Voucher Created', category='success')
                 return redirect(url_for('voucher_details', voucher_id=voucher.id))
@@ -1153,7 +1231,10 @@ def create_new_payment_voucher():
                 voucher = PaymentVoucher(reference_no=ref_no, payment_date=date_today,
                                          amount=request.form["amount"], sales_order_id=bill_no.id,
                                          client_id=client.id)
+                bill_no.last_updated_date = last_updated
+                bill_no.last_updated_time = last_updated_time
                 db.session.add(voucher)
+
                 db.session.commit()
                 flash('Voucher created', category='success')
                 return redirect(url_for('voucher_details', voucher_id=voucher.id))
@@ -1164,7 +1245,10 @@ def create_new_payment_voucher():
                 voucher = PaymentVoucher(reference_no=ref_no, payment_date=date_today,
                                          amount=request.form["amount"], sales_order_id=bill_no.id,
                                          client_id=client.id)
+                bill_no.last_updated_date = last_updated
+                bill_no.last_updated_time = last_updated_time
                 db.session.add(voucher)
+
                 db.session.commit()
                 flash('Voucher created', category='success')
                 return redirect(url_for('voucher_details', voucher_id=voucher.id))
@@ -1196,7 +1280,8 @@ def approve_voucher(voucher_id):
         sale_order = SalesOrder.query.filter_by(bill=voucher_to_update.bill_no.bill).first()
         client = Client.query.filter_by(id=sale_order.client_id).first()
         total_vouchers = PaymentVoucher.query.filter(PaymentVoucher.sales_order_id == sale_order.id).all()
-
+        sale_order.last_updated_date = last_updated
+        sale_order.last_updated_time = last_updated_time
         if client.credit_amount == 0 and voucher_to_update.amount == client.overall_payable:
             print("test")
             if voucher_to_update.amount < sale_order.total_payable:
@@ -1384,10 +1469,16 @@ def file_upload():
                                 return render_template(Templates.file_upload)
                             row.client_id = int(read_file.loc[count, 'Client'])
                             row.content_advt = read_file.loc[count, 'AD/GP/Others']
-                            row.date_of_order = read_file.loc[count, 'RO Date'],
+                            row.date_of_order = datetime.datetime.strptime(
+                                read_file.loc[count, 'RO Date'],
+                                "%d-%m-%Y").strftime("%Y-%m-%d")
 
-                            row.dop = read_file.loc[count, 'DoP']
-                            row.bill_date = read_file.loc[count, 'Bill Date'],
+                            row.dop = datetime.datetime.strptime(
+                                read_file.loc[count, 'DoP'],
+                                "%d-%m-%Y").strftime("%Y-%m-%d")
+                            row.bill_date = datetime.datetime.strptime(
+                                read_file.loc[count, 'Bill Date'],
+                                "%d-%m-%Y").strftime("%Y-%m-%d")
                             row.amount = float(read_file.loc[count, 'Amount(Rs.)']),
                             row.gst_amount = float(read_file.loc[count, 'GST(Rs.)']),
                             row.total_amount = float(read_file.loc[count, 'Total(Including GST)']),
@@ -1403,8 +1494,9 @@ def file_upload():
                 print(get_client_id, 'test')
                 print(exists)
                 if not exists:
-                    new_client = Client(client_name=read_file.loc[count, 'Client'], email=None, phone_no=None,
-                                        address=None, credit_amount=0, overall_received=None, overall_payable=None)
+                    new_client = Client(client_name=read_file.loc[count, 'Client'], email='Add Email',
+                                        phone_no='Add Phone number',
+                                        address="Add Address", credit_amount=0, overall_received=0, overall_payable=0)
                     db.session.add(new_client)
                     db.session.commit()
 
@@ -1452,7 +1544,9 @@ def file_upload():
                                                         gst=str(read_file.loc[count, 'GST(%)']),
                                                         amount_received_date=amount_received_date,
                                                         total_paid=0, total_payable=float(
-                                    read_file.loc[count, 'Total(Including GST)']), adjusted_credit=0
+                                    read_file.loc[count, 'Total(Including GST)']), adjusted_credit=0,
+                                                        last_updated_date=last_updated,
+                                                        last_updated_time=last_updated_time
                                                         )
                             client = Client.query.filter_by(id=get_client_id.id).first()
                             client.overall_payable = client.overall_payable + new_sale_order.total_amount
@@ -1489,6 +1583,12 @@ def send_mail():
         if get_user:
             get_user.otp = otp_generate
             get_user.otp_flag = False
+
+            now = datetime.datetime.now()
+            current_time = now.strftime("%y-%m-%d %H:%M:%S")
+            get_user.otp_expires_at = str(
+                datetime.datetime.strptime(current_time, "%y-%m-%d %H:%M:%S") + timedelta(minutes=5))
+            print(get_user.otp_expires_at, 'testing')
             print(get_user.otp, 'OTP')
             db.session.commit()
             return render_template(Templates.verifyOtp, user=get_user.email)
@@ -1503,7 +1603,7 @@ def send_mail():
 def generate_new_otp():
     get_user = Users.query.filter_by(email=request.form["user"]).first()
     if request.method == "POST":
-        otp_generate = random.randrange(9999)
+        otp_generate = random.randrange(11111111, 99999999)
         msg = Message("Request for OTP (One Time Password)",
                       sender="pulkitdhiman411@gmail.com",
                       recipients=[request.form["user"]])
@@ -1511,7 +1611,12 @@ def generate_new_otp():
         mail.send(msg)
         get_user.otp = otp_generate
         get_user.otp_flag = False
-        print(get_user.otp, 'OTP')
+
+        now = datetime.datetime.now()
+        current_time = now.strftime("%y-%m-%d %H:%M:%S")
+        get_user.otp_expires_at = datetime.datetime.strptime(current_time, "%y-%m-%d %H:%M:%S") + timedelta(minutes=5)
+
+        print(get_user.otp_expires_at)
         db.session.commit()
         flash("Email With New OTP Sent", category='success')
         return render_template(Templates.verifyOtp, user=get_user.email)
@@ -1524,13 +1629,32 @@ def verify_otp():
         print('test')
         get_user = Users.query.filter_by(email=request.form["user"]).first()
 
-        if get_user.otp == request.form['verify_otp'] and get_user.otp_flag is False:
+        now = datetime.datetime.now()
+        current_time = now.strftime("%y-%m-%d %H:%M:%S")
+        print(datetime.datetime.strptime(current_time, "%y-%m-%d %H:%M:%S"), 'current time')
+
+        db_date_time = datetime.datetime.strptime(str(get_user.otp_expires_at), "%Y-%m-%d %H:%M:%S")
+        print(db_date_time, 'test')
+
+        # print(datetime.datetime.strptime(db_converted_date_time, "%y-%m-%d %H:%M:%S"), 'db time')
+
+        if get_user.otp != request.form['verify_otp']:
+            flash('Invalid OTP.', category='error')
+            return render_template(Templates.verifyOtp, user=get_user.email)
+
+        if get_user.otp_flag is True:
+            flash('OTP already used.', category='error')
+            return render_template(Templates.verifyOtp, user=get_user.email)
+
+        if datetime.datetime.strptime(current_time, "%y-%m-%d %H:%M:%S") > db_date_time:
+            flash('OTP seems to be Expired.', category='error')
+            return render_template(Templates.verifyOtp, user=get_user.email)
+
+        else:
             get_user.otp_flag = True
             db.session.commit()
             return render_template(Templates.reset_password, user=get_user.email)
-        else:
-            flash('Invalid OTP. OTP already used or is Expired', category='error')
-            return render_template(Templates.verifyOtp, user=get_user.email)
+
     return render_template(Templates.verifyOtp)
 
 
@@ -1555,6 +1679,7 @@ def reset_pass():
             db.session.commit()
             flash('Password Changed Successfully', category='success')
             return redirect(url_for('login'))
+
 
 if getattr(sys, 'frozen', False):
     pyi_splash.close()

@@ -32,6 +32,7 @@
 <br>
 
 {% if not filter_by %}
+{% include 'alert.html' %}
 <form method="GET" action="{{ url_for('search_sale_orders', page=1) }}">
     <div class="row w-75 mx-auto">
 
@@ -72,7 +73,7 @@
 
                 </div>
                 <div class="btn-group me-2" role="group" aria-label="Second group">
-                    <button type="submit" class="btn btn-info btn-sm"
+                    <button type="submit" class="btn btn-info btn-sm btn-bg"
                     >Search
                     </button>
 
@@ -102,7 +103,8 @@
         <div class="col-1 text-center" style="margin-top:32px; display:block; margin-left:-4px" id="filter">
             <div class="btn-group btn-group-sm">
 
-                <img title="Filter" src="{{url_for('static', filename='images/filter.png')}}" height="25px" alt="no image"
+                <img title="Filter" src="{{url_for('static', filename='images/filter.png')}}" height="25px"
+                     alt="no image"
                      style="cursor:pointer"
                      class="dropdown-toggle" data-toggle="dropdown"
                      aria-haspopup="true"
@@ -149,6 +151,9 @@
             </div>
         </div>
 
+        <div class="col-5 text-end" style="margin-left: 92px; margin-top:24px; display:block" id="export_records">
+            <button type="button" class="btn btn-info btn-bg btn-sm" onclick="location.href='{{url_for('export_sale_orders')}}'">Export Sale Orders</button>
+        </div>
         <div class="col-10 text-end" style="display:none" id="generate_custom_report">
             <form action="{{ url_for('csv_file_sale_order_to_update') }}" method="POST">
 
@@ -173,7 +178,7 @@
     </div>
     <div class="row">
         <div class="col">
-            {% include 'alert.html' %}
+
         </div>
     </div>
     <form action="" method="post">
@@ -209,10 +214,12 @@
                 </td>
                 <td class="numbered"></td>
                 <td style="cursor: pointer;"
-                    onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'">{{ record.bill }}
+                    onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'">{{
+                    record.bill }}
                 </td>
                 <td style="cursor: pointer;"
-                    onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'">{{ record.bill_date
+                    onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'">{{
+                    record.bill_date
                     }}
                 </td>
 
@@ -234,7 +241,7 @@
                     &#8377 {{ record.total_amount }}
                 </td>
 
-                 <td style="cursor: pointer;text-align:right"
+                <td style="cursor: pointer;text-align:right"
                     onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'">
                     &#8377 {{ record.total_paid }}
                 </td>
@@ -246,7 +253,7 @@
 
                 <td style="cursor: pointer; width:115px"
                     onclick="location.href='{{ url_for('sale_order_details', sale_order_id = record.id) }}'"
-                    >
+                >
                     <label class="status">{{ record.status.value }}</label>
                 </td>
 
@@ -266,130 +273,131 @@
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
 
 
+                {% if filter_by %}
 
-                {% if filter_by  %}
 
-
-                    {% if all_SalesOrder.has_prev %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('filter_payment_status', page=all_SalesOrder.prev_num, filter_by=filter_by, search=request.args.get('search', '')) }}'"
-                                class="btn btn-info btn-bg btn-sm text-white">Previous
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% for page in all_SalesOrder.iter_pages()%}
-                    {% if page %}
-                    {% if all_SalesOrder.page == page %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('filter_payment_status', page=page, filter_by=filter_by, search=request.args.get('search', '')) }}'" id="page_btn"
-                                class="btn btn-warning btn-sm text-white">{{page}}
-                        </button>
-                    </div>
-                    {% else %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('filter_payment_status', page=page, filter_by=filter_by, search=request.args.get('search', '')) }}'" id="page_btn"
-                                class="btn btn-outline-info btn-bg btn-sm">{{page}}
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% else %}
-                    . . .
-                    {% endif %}
-                    {% endfor %}
-                    {% if all_SalesOrder.has_next %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('filter_payment_status', page=all_SalesOrder.next_num, filter_by=filter_by, search=request.args.get('search', '')) }}'"
-                                class="btn btn-info btn-bg btn-sm text-white">Next
-                        </button>
-                    </div>
-                    {% endif %}
+                {% if all_SalesOrder.has_prev %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('filter_payment_status', page=all_SalesOrder.prev_num, filter_by=filter_by, search=request.args.get('search', '')) }}'"
+                            class="btn btn-info btn-bg btn-sm text-white">Previous
+                    </button>
+                </div>
+                {% endif %}
+                {% for page in all_SalesOrder.iter_pages()%}
+                {% if page %}
+                {% if all_SalesOrder.page == page %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('filter_payment_status', page=page, filter_by=filter_by, search=request.args.get('search', '')) }}'"
+                            id="page_btn"
+                            class="btn btn-warning btn-sm text-white">{{page}}
+                    </button>
+                </div>
+                {% else %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('filter_payment_status', page=page, filter_by=filter_by, search=request.args.get('search', '')) }}'"
+                            id="page_btn"
+                            class="btn btn-outline-info btn-bg btn-sm">{{page}}
+                    </button>
+                </div>
+                {% endif %}
+                {% else %}
+                . . .
+                {% endif %}
+                {% endfor %}
+                {% if all_SalesOrder.has_next %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('filter_payment_status', page=all_SalesOrder.next_num, filter_by=filter_by, search=request.args.get('search', '')) }}'"
+                            class="btn btn-info btn-bg btn-sm text-white">Next
+                    </button>
+                </div>
+                {% endif %}
 
 
                 {% elif request.args['search'] %}
 
-                    {% if all_SalesOrder.has_prev %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('search_sale_orders', page=all_SalesOrder.prev_num, search=request.args.get('search', '')) }}'"
-                                class="btn btn-info btn-bg btn-sm text-white">Previous
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% for page in all_SalesOrder.iter_pages()%}
-                    {% if page %}
-                    {% if all_SalesOrder.page == page %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('search_sale_orders', page=page, search=request.args.get('search', '')) }}'" id="page_btn"
-                                class="btn btn-warning btn-sm text-white">{{page}}
-                        </button>
-                    </div>
-                    {% else %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('search_sale_orders', page=page, search=request.args.get('search', '')) }}'" id="page_btn"
-                                class="btn btn-outline-info btn-bg btn-sm">{{page}}
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% else %}
-                    . . .
-                    {% endif %}
-                    {% endfor %}
-                    {% if all_SalesOrder.has_next %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('search_sale_orders', page=all_SalesOrder.next_num, search=request.args.get('search', '')) }}'"
-                                class="btn btn-info btn-bg btn-sm text-white">Next
-                        </button>
-                    </div>
-                    {% endif %}
-
-
+                {% if all_SalesOrder.has_prev %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('search_sale_orders', page=all_SalesOrder.prev_num, search=request.args.get('search', '')) }}'"
+                            class="btn btn-info btn-bg btn-sm text-white">Previous
+                    </button>
+                </div>
+                {% endif %}
+                {% for page in all_SalesOrder.iter_pages()%}
+                {% if page %}
+                {% if all_SalesOrder.page == page %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('search_sale_orders', page=page, search=request.args.get('search', '')) }}'"
+                            id="page_btn"
+                            class="btn btn-warning btn-sm text-white">{{page}}
+                    </button>
+                </div>
+                {% else %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('search_sale_orders', page=page, search=request.args.get('search', '')) }}'"
+                            id="page_btn"
+                            class="btn btn-outline-info btn-bg btn-sm">{{page}}
+                    </button>
+                </div>
+                {% endif %}
+                {% else %}
+                . . .
+                {% endif %}
+                {% endfor %}
+                {% if all_SalesOrder.has_next %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('search_sale_orders', page=all_SalesOrder.next_num, search=request.args.get('search', '')) }}'"
+                            class="btn btn-info btn-bg btn-sm text-white">Next
+                    </button>
+                </div>
+                {% endif %}
 
 
                 {% else %}
-                    {% if all_SalesOrder.has_prev %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('list_of_sales_order', page=all_SalesOrder.prev_num) }}'"
-                                class="btn btn-info btn-bg btn-sm">Previous
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% for page in all_SalesOrder.iter_pages()%}
-                    {% if page %}
-                    {% if all_SalesOrder.page == page %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('list_of_sales_order', page=page) }}'" id="page_btn"
-                                class="btn btn-warning btn-sm text-white">{{page}}
-                        </button>
-                    </div>
-                    {% else %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('list_of_sales_order', page=page) }}'" id="page_btn"
-                                class="btn btn-outline-info btn-bg btn-sm">{{page}}
-                        </button>
-                    </div>
-                    {% endif %}
-                    {% else %}
-                    . . .
-                    {% endif %}
-                    {% endfor %}
-                    {% if all_SalesOrder.has_next %}
-                    <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
-                        <button type="button"
-                                onclick="location.href='{{ url_for('list_of_sales_order', page=all_SalesOrder.next_num) }}'"
-                                class="btn btn-info btn-sm btn-bg">Next
-                        </button>
-                    </div>
-                    {% endif %}
+                {% if all_SalesOrder.has_prev %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('list_of_sales_order', page=all_SalesOrder.prev_num) }}'"
+                            class="btn btn-info btn-bg btn-sm">Previous
+                    </button>
+                </div>
+                {% endif %}
+                {% for page in all_SalesOrder.iter_pages()%}
+                {% if page %}
+                {% if all_SalesOrder.page == page %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('list_of_sales_order', page=page) }}'" id="page_btn"
+                            class="btn btn-warning btn-sm text-white">{{page}}
+                    </button>
+                </div>
+                {% else %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('list_of_sales_order', page=page) }}'" id="page_btn"
+                            class="btn btn-outline-info btn-bg btn-sm">{{page}}
+                    </button>
+                </div>
+                {% endif %}
+                {% else %}
+                . . .
+                {% endif %}
+                {% endfor %}
+                {% if all_SalesOrder.has_next %}
+                <div class="btn-group mr-2" role="group" aria-label="Second group" style="padding:1px 2px">
+                    <button type="button"
+                            onclick="location.href='{{ url_for('list_of_sales_order', page=all_SalesOrder.next_num) }}'"
+                            class="btn btn-info btn-sm btn-bg">Next
+                    </button>
+                </div>
+                {% endif %}
                 {% endif %}
 
             </div>

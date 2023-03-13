@@ -1,5 +1,5 @@
 {% extends 'index.html' %}
-
+{%block title%}Sale Order Details{% endblock %}
 {% block content %}
 {% include 'alert.html' %}
 
@@ -29,16 +29,6 @@ input[type="file"] {
 body{
     background-color: #f8f9fa;
 }
-
-
-
-
-
-
-
-
-
-
 
 </style>
 
@@ -200,10 +190,12 @@ body{
                 &#8592 Back
             </button>
         </div>
+
         <div class="col text-end"
              style="font-size:small;">
-            Last Updated: {{last_updated}} ({{last_updated_time}})
+            Last Updated: {{sale_order_to_update.last_updated_date}} ({{sale_order_to_update.last_updated_time}})
         </div>
+
     </div>
     <div class="w-75 mx-auto row  form-group" style="background-color:#eff4ff; border-radius:20px">
         <div class="col-5">

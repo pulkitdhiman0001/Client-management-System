@@ -61,7 +61,9 @@ class Users(db.Model):
     password = db.Column(db.String())
     otp = db.Column(db.String(10))
     otp_flag = db.Column(db.Boolean, default=False)
-    def __init__(self, username, firstname, last_name, email, phone_no, password, otp, otp_flag):
+    otp_expires_at = db.Column(db.String(100))
+
+    def __init__(self, username, firstname, last_name, email, phone_no, password, otp, otp_flag, otp_expires_at):
         self.username = username
         self.first_name = firstname
         self.last_name = last_name
@@ -70,6 +72,7 @@ class Users(db.Model):
         self.password = password
         self.otp = otp
         self.otp_flag = otp_flag
+        self.otp_expires_at = otp_expires_at
 
 
 class Client(db.Model):
@@ -85,7 +88,7 @@ class Client(db.Model):
     overall_payable = db.Column(db.Float)
     overall_received = db.Column(db.Float)
 
-    def __init__(self, client_name, email, phone_no, address,overall_payable,overall_received, credit_amount=None):
+    def __init__(self, client_name, email, phone_no, address, overall_payable, overall_received, credit_amount=None):
         self.client_name = client_name
 
         self.email = email
@@ -116,6 +119,8 @@ class SalesOrder(db.Model):
     total_payable = db.Column(db.Float)
     adjusted_credit = db.Column(db.Float)
     amount_received_date = db.Column(db.String(100))
+    last_updated_date = db.Column(db.String(100))
+    last_updated_time = db.Column(db.String(100))
 
     status = db.Column(
         db.Enum(SalesOrderStatus, values_callable=lambda x: [str(stat.value) for stat in SalesOrderStatus]),
@@ -123,8 +128,9 @@ class SalesOrder(db.Model):
 
     filename = db.Column(db.String())
 
-    def __init__(self, client_id, content_advt, date_of_order, dop, bill, bill_date, amount,gst_amount,total_amount, gst,total_paid,total_payable,adjusted_credit,
-                 filename=None, amount_received_date=None):
+    def __init__(self, client_id, content_advt, date_of_order, dop, bill, bill_date, amount, gst_amount, total_amount,
+                 gst, total_paid, total_payable, adjusted_credit,
+                 filename=None, amount_received_date=None, last_updated_date=None, last_updated_time=None):
         self.client_id = client_id
         self.content_advt = content_advt
         self.date_of_order = date_of_order
@@ -140,6 +146,8 @@ class SalesOrder(db.Model):
         self.adjusted_credit = adjusted_credit
 
         self.amount_received_date = amount_received_date
+        self.last_updated_date = last_updated_date
+        self.last_updated_time = last_updated_time
         self.filename = filename
 
 

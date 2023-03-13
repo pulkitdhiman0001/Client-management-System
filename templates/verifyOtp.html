@@ -11,20 +11,18 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{url_for('static', filename='css/alert.css')}}">
 
+
+
     <style>
         label{
             font-weight:bold;
         }
-
-
-
-
-
     </style>
 
 </head>
-<body>
+<body id="bg">
 {% include 'alert.html' %}
+
 <div class="row w-25 mx-auto shadow-lg p-4 mb-5 bg-white rounded" style="margin-top:9rem">
 
     <div class="row">
@@ -43,13 +41,32 @@
             <hr>
             <div class="row mt-2">
                 <div class="col">
-                    <label>Enter OTP</label>
-                    <input type="text" name="verify_otp" class="form-control">
+                    <div class="row">
+                        <div class="col">
+                            <label>Enter OTP<span style="color:red">*</span></label>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <p style="color:red; visibility:visible" id="valid_for">Valid for <span id="otp_timer"></span></p>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <p style="color:red; visibility:hidden" id="otp_expired">OTP Expired*</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                            <div class="col">
+                                <input type="text" name="verify_otp" class="form-control" required>
+                            </div>
+                        </div>
+
                 </div>
+
             </div>
             <div class="row mt-3">
                 <div class="col">
-                    <button type="submit" class="btn btn-info btn-bg w-100">Verify</button>
+                    <button type="submit" class="btn btn-info btn-bg w-100">Verify
+
+                    </button>
                 </div>
             </div>
             <input type="text" value="{{user}}" name="user" hidden>
@@ -60,8 +77,45 @@
 
             <div class="row">
                 <div class="col">
-                    <button type="submit" class="btn btn-info btn-bg w-100" id="generate_new_otp" disabled>Generate New
-                        OTP <span id="timer"></span></button>
+                    <button type="submit" class="btn btn-info btn-bg w-100" id="generate_new_otp"
+                            onclick="show_loader()" disabled>Generate New
+                        OTP <span id="timer"></span>
+
+                        <svg id="loader" width="50" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"
+                             fill="#fff" visibility="hidden">
+                            <circle cx="15" cy="15" r="15">
+                                <animate attributeName="r" from="15" to="15"
+                                         begin="0s" dur="0.8s"
+                                         values="15;9;15" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                                <animate attributeName="fill-opacity" from="1" to="1"
+                                         begin="0s" dur="0.8s"
+                                         values="1;.5;1" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="60" cy="15" r="9" fill-opacity="0.3">
+                                <animate attributeName="r" from="9" to="9"
+                                         begin="0s" dur="0.8s"
+                                         values="9;15;9" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                                <animate attributeName="fill-opacity" from="0.5" to="0.5"
+                                         begin="0s" dur="0.8s"
+                                         values=".5;1;.5" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="105" cy="15" r="15">
+                                <animate attributeName="r" from="15" to="15"
+                                         begin="0s" dur="0.8s"
+                                         values="15;9;15" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                                <animate attributeName="fill-opacity" from="1" to="1"
+                                         begin="0s" dur="0.8s"
+                                         values="1;.5;1" calcMode="linear"
+                                         repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+
+                    </button>
                 </div>
             </div>
 
@@ -85,6 +139,7 @@ function timer(remaining) {
   m = m < 10 ? '0' + m : m;
   s = s < 10 ? '0' + s : s;
   document.getElementById('timer').innerHTML = m + ':' + s;
+
   remaining -= 1;
 
   if(remaining >= 0 && timerOn) {
@@ -109,9 +164,48 @@ timer(30);
 
 
 
+let otp_timerOn = true
+
+function otp_timer(remaining) {
+  var m = Math.floor(remaining / 60);
+  var s = remaining % 60;
+
+  m = m < 10 ? '0' + m : m;
+  s = s < 10 ? '0' + s : s;
+  document.getElementById('otp_timer').innerHTML = m + ':' + s;
+  remaining -= 1;
+
+  if(remaining >= 0 && otp_timerOn) {
+    setTimeout(function() {
+        otp_timer(remaining);
+    }, 1000);
+    return;
+  }
+
+  if(!otp_timerOn) {
+    // Do validate stuff here
+    return;
+  }
+
+  // Do timeout stuff here
+  $('#otp_timer').css('display', 'none');
+  $('#valid_for').css('visibility', 'hidden');
+  $('#otp_expired').css('visibility', 'visible');
+}
+
+otp_timer(300);
+
+
+
+function show_loader(){
+        document.getElementById("loader").style.visibility = "visible";
+
+}
 
 
 
 
 </script>
+
+
 </html>
