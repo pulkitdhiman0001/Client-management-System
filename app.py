@@ -17,14 +17,9 @@ from form import Form
 from models import db, create_app, Client, SalesOrder, SalesOrderStatus, Users, PaymentVoucher, PaymentStatus, Gst
 from templates import Templates
 
-from flaskwebgui import FlaskUI
-
 import random
 
 from flask_mail import Mail, Message
-
-if getattr(sys, 'frozen', False):
-    import pyi_splash
 
 app = create_app()
 migrate = Migrate(app, db, render_as_batch=True)
@@ -1681,10 +1676,6 @@ def reset_pass():
             return redirect(url_for('login'))
 
 
-if getattr(sys, 'frozen', False):
-    pyi_splash.close()
-
 if __name__ == "__main__":
-    FlaskUI(app=app, server='flask',
-            browser_path=os.path.join('C:\Program Files\Google\Chrome\Application', 'chrome.exe')).run()
-    # app.run()
+
+    app.run()

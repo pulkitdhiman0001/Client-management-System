@@ -22,105 +22,40 @@
 </style>
 
 <body id="bg">
-{% include 'alert.html' %}
+
 <link rel="stylesheet" href="{{url_for('static', filename='css/loader.css')}}">
 <script src="{{url_for('static', filename='js/loader.js')}}"></script>
 
 <form action="/" method="post" name="myForm">
-    <div class="row w-25 mx-auto shadow-lg p-3 mb-5 bg-white rounded" style="margin-top:10rem">
-
-        <div class="row w-100">
-            <div class="col text-center">
-                <h2>Login</h2>
-            </div>
-        </div>
-        <div class="row w-100 mb-2 mx-auto">
-            <div class="col">
-                <label>Username</label>
-                <input type="text" class="form-control" placeholder="Enter username" name="username" required>
-            </div>
-        </div>
-        <div class="row w-100 mb-3 mx-auto">
-            <div class="col">
-                <label>Password</label>
-                <input type="password" class="form-control" placeholder="Password" name="password" required>
-            </div>
-        </div>
-        <div class="row w-100 mb-2 mx-auto">
-            <div class="col">
-                <button type="submit" class="btn btn-info gap-2 col-12 btn-bg" onclick="show_loader()">Login
-
-                    <svg id="loader" width="15" height="15" viewBox="0 0 105 105" xmlns="http://www.w3.org/2000/svg" fill="#fff" visibility="hidden">
-                        <circle cx="12.5" cy="12.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="0s" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="12.5" cy="52.5" r="12.5" fill-opacity=".5">
-                            <animate attributeName="fill-opacity"
-                                     begin="100ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="52.5" cy="12.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="300ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="52.5" cy="52.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="600ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="92.5" cy="12.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="800ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="92.5" cy="52.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="400ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="12.5" cy="92.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="700ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="52.5" cy="92.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="500ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                        <circle cx="92.5" cy="92.5" r="12.5">
-                            <animate attributeName="fill-opacity"
-                                     begin="200ms" dur="1s"
-                                     values="1;.2;1" calcMode="linear"
-                                     repeatCount="indefinite"/>
-                        </circle>
-                    </svg>
-
-
-                </button>
-            </div>
-        </div>
-        <div class="row w-100 mb-2 mx-auto">
-            <div class="col">
-                <a href="{{ url_for('password_recovery_landing_page')}}" style="cursor:pointer; text-decoration:none">Forgot
+  <div class="container" style="display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25rem;
+    justify-content: center;
+    height: 100vh;">
+    <div style="    width: 100%;
+    background: white;
+    box-shadow: 2px 0px 21px #c5b6b6;
+    padding: 2rem;
+    border-radius: 1rem;">
+      <h3 class="text-center mb-3">Login</h3>
+      <div class="form-floating mb-3 w-100">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username" required>
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating w-100">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password"
+          required>
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button type="submit" class="btn btn-info btn-bg w-100 mt-4 " onclick="show_loader()">Login</button>
+      <a href="{{ url_for('password_recovery_landing_page')}}" style="cursor:pointer; text-decoration:none">Forgot
                     Password?</a>
-            </div>
-        </div>
+      {% include 'alert.html' %}
     </div>
+  </div>
 </form>
-<div class="loader" role="status">
-</div>
+
 </body>
 
 <script>
